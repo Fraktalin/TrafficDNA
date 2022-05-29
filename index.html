@@ -41,38 +41,71 @@
   </head>
   <body>
     <header class="main-header">
-      <img
-        loading="lazy"
-        src="./images/logo.png"
-        alt="main logo"
-        class="main-logo"
-      />
+      <picture>
+        <source srcset="./images/logo.webp" type="image/webp" />
+        <source srcset="./images/logo.png" type="image/png" />
+        <img
+          loading="lazy"
+          class="main-logo"
+          src="./images/logo.png"
+          alt="main logo"
+        />
+      </picture>
     </header>
     <main>
       <section class="main-section">
         <div class="container">
           <div class="start-block">
             <div class="slider">
-              <img
-                loading="lazy"
-                src="./images/slider/slide1.jpg"
-                alt="girl in blue"
-              />
-              <img
-                loading="lazy"
-                src="./images/slider/slide2.jpg"
-                alt="man and woman"
-              />
-              <img
-                loading="lazy"
-                src="./images/slider/slide3.jpg"
-                alt="man and woman"
-              />
-              <img
-                loading="lazy"
-                src="./images/slider/slide4.jpg"
-                alt="women"
-              />
+              <picture>
+                <source
+                  srcset="./images/slider/slide1.webp"
+                  type="image/webp"
+                />
+                <source srcset="./images/slider/slide1.jpg" type="image/jpg" />
+                <img
+                  loading="lazy"
+                  src="./images/slider/slide1.jpg"
+                  alt="women"
+                />
+              </picture>
+
+              <picture>
+                <source
+                  srcset="./images/slider/slide2.webp"
+                  type="image/webp"
+                />
+                <source srcset="./images/slider/slide2.jpg" type="image/jpg" />
+                <img
+                  loading="lazy"
+                  src="./images/slider/slide2.jpg"
+                  alt="women and men"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="./images/slider/slide3.webp"
+                  type="image/webp"
+                />
+                <source srcset="./images/slider/slide3.jpg" type="image/jpg" />
+                <img
+                  loading="lazy"
+                  src="./images/slider/slide3.jpg"
+                  alt="women and men"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="./images/slider/slide4.webp"
+                  type="image/webp"
+                />
+                <source srcset="./images/slider/slide4.jpg" type="image/jpg" />
+                <img
+                  loading="lazy"
+                  src="./images/slider/slide4.jpg"
+                  alt="women"
+                />
+              </picture>
             </div>
             <div class="form-block">
               <h1 class="main-title">Join us now. It's FREE</h1>
@@ -241,12 +274,16 @@
           <div class="top-block">
             <div class="image-text">
               <h2 class="second-title">Code this block</h2>
-              <img
-                loading="lazy"
-                class="shape-image"
-                src="./images/girlInCircle.png"
-                alt="girl"
-              />
+
+              <picture class="shape-image">
+                <source srcset="./images/girlInCircle.webp" type="image/webp" />
+                <source srcset="./images/girlInCircle.png" type="image/png" />
+                <img
+                  loading="lazy"
+                  src="./images/girlInCircle.png"
+                  alt="women"
+                />
+              </picture>
               <p>
                 This text should be changeable. Lorem ipsum text here. Offers
                 great opportunities to everyone looking to meet locals, find
@@ -271,12 +308,16 @@
                   <img loading="lazy" src="./images/prev.svg" alt="prev" />
                 </button>
                 <div class="user-item">
-                  <img
-                    loading="lazy"
-                    class="user-image"
-                    src="./images/userItem.jpg"
-                    alt="sexy Girl"
-                  />
+                  <picture>
+                    <source srcset="./images/userItem.webp" type="image/webp" />
+                    <source srcset="../images/userItem.jpg" type="image/jpg" />
+                    <img
+                      loading="lazy"
+                      class="user-image"
+                      src="./images/girlInCircle.png"
+                      alt="sexy Girl"
+                    />
+                  </picture>
                   <span class="user-name">SexyGirl</span>
                   <button class="user-item-button user-wink">
                     <img
@@ -296,12 +337,16 @@
                   </button>
                 </div>
                 <div class="user-item">
-                  <img
-                    loading="lazy"
-                    class="user-image"
-                    src="./images/userItem.jpg"
-                    alt="sexy Girl"
-                  />
+                  <picture>
+                    <source srcset="./images/userItem.webp" type="image/webp" />
+                    <source srcset="../images/userItem.jpg" type="image/jpg" />
+                    <img
+                      loading="lazy"
+                      class="user-image"
+                      src="./images/girlInCircle.png"
+                      alt="sexy Girl"
+                    />
+                  </picture>
                   <span class="user-name">SexyGirl</span>
                   <button class="user-item-button user-wink">
                     <img
@@ -321,12 +366,16 @@
                   </button>
                 </div>
                 <div class="user-item">
-                  <img
-                    loading="lazy"
-                    class="user-image"
-                    src="./images/userItem.jpg"
-                    alt="sexy Girl"
-                  />
+                  <picture>
+                    <source srcset="./images/userItem.webp" type="image/webp" />
+                    <source srcset="../images/userItem.jpg" type="image/jpg" />
+                    <img
+                      loading="lazy"
+                      class="user-image"
+                      src="./images/girlInCircle.png"
+                      alt="sexy Girl"
+                    />
+                  </picture>
                   <span class="user-name">SexyGirl</span>
                   <button class="user-item-button user-wink">
                     <img
@@ -346,12 +395,16 @@
                   </button>
                 </div>
                 <div class="user-item">
-                  <img
-                    loading="lazy"
-                    class="user-image"
-                    src="./images/userItem.jpg"
-                    alt="sexy Girl"
-                  />
+                  <picture>
+                    <source srcset="./images/userItem.webp" type="image/webp" />
+                    <source srcset="../images/userItem.jpg" type="image/jpg" />
+                    <img
+                      loading="lazy"
+                      class="user-image"
+                      src="./images/girlInCircle.png"
+                      alt="sexy Girl"
+                    />
+                  </picture>
                   <span class="user-name">SexyGirl</span>
                   <button class="user-item-button user-wink">
                     <img
@@ -370,12 +423,16 @@
                   </button>
                 </div>
                 <div class="user-item">
-                  <img
-                    loading="lazy"
-                    class="user-image"
-                    src="./images/userItem.jpg"
-                    alt="sexy Girl"
-                  />
+                  <picture>
+                    <source srcset="./images/userItem.webp" type="image/webp" />
+                    <source srcset="../images/userItem.jpg" type="image/jpg" />
+                    <img
+                      loading="lazy"
+                      class="user-image"
+                      src="./images/girlInCircle.png"
+                      alt="sexy Girl"
+                    />
+                  </picture>
                   <span class="user-name">SexyGirl</span>
                   <button class="user-item-button user-wink">
                     <img
@@ -566,13 +623,17 @@
     <footer class="main-footer">
       <div class="container">
         <div class="footer-wrap">
-          <a class="footer-link" href="#"
-            ><img
-              loading="lazy"
-              class="footer-link-image"
-              src="./images/logo.png"
-              alt="main logo"
-          /></a>
+          <a class="footer-link" href="#">
+            <picture>
+              <source srcset="./images/logo.webp" type="image/webp" />
+              <source srcset="./images/logo.png" type="image/png" />
+              <img
+                class="footer-link-image"
+                loading="lazy"
+                src="./images/logo.png"
+                alt="main logo"
+              /> </picture
+          ></a>
           <div class="about-footer-block">
             <span class="footer-text">VD</span>
             <span class="footer-color-text">Web Coder Test Task</span>
