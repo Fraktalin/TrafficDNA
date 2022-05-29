@@ -411,12 +411,27 @@
 
 @media (max-width: 425px) {
   .breadcrumbs-item {
-    width: 59px;
+    width: 69px;
   }
   .circle-range {
     margin-left: 50px;
   }
   .circle-range::before {
-    left: 33%;
+    left: 29%;
+  }
+  .italic-text::before {
+    left: -20px;
+    top: -32px;
+  }
+}
+@media (max-width: 375px) {
+  .breadcrumbs-item {
+    width: 59px;
+  }
+  .circle-range::before {
+    left: 34%;
+  }
+  .circle-range {
+    margin-top: 10px;
   }
 }

@@ -390,8 +390,8 @@ input:invalid + span:after {
     margin-left: 2px;
   }
   .selectBox.city span.selected {
-    width: 103%;
-    margin-left: -6px;
+    width: 99%;
+    margin-left: 6px;
   }
   .main-button {
     font-size: 22px;
@@ -429,5 +429,8 @@ input:invalid + span:after {
   }
   .choice-wrap {
     padding-left: 34px;
+  }
+  .main-form {
+    font-size: 12px;
   }
 }
