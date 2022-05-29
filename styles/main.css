@@ -753,6 +753,128 @@ input:invalid + span:after {
   top: 9px;
 }
 
+@media (max-width: 1024px) {
+  .choice-sex {
+    margin-left: 40px;
+  }
+  .search-icon {
+    padding-left: 10px;
+  }
+  .form-input {
+    margin-left: 25px;
+  }
+  span.selected {
+    margin-left: 42px;
+  }
+  .selectBox.mounth span.selected {
+    margin-left: 10px;
+  }
+  .selectBox.year span.selected {
+    width: 100px;
+    margin-left: 4px;
+  }
+  .selectBox.city span.selected {
+    width: 98%;
+    margin-left: 11px;
+  }
+  .main-button {
+    margin: 8px auto 0 auto;
+  }
+  .main-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .start-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .form-block {
+    width: 100%;
+  }
+  .search-icon {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .search-icon {
+    padding-left: 10px;
+  }
+  .choice-sex {
+    margin-left: 17px;
+    width: 80px;
+  }
+  .form-input {
+    margin-left: 3px;
+  }
+  .selectBox.year span.selected {
+    width: 88px;
+    margin-left: 22px;
+  }
+  span.selected {
+    margin-left: 22px;
+  }
+  .main-form {
+    font-size: 16px;
+  }
+  .selectBox.mounth span.selected {
+    width: 104px;
+    margin-left: 2px;
+  }
+  .selectBox.year span.selected {
+    margin-left: 2px;
+  }
+  .selectBox.city span.selected {
+    width: 103%;
+    margin-left: -6px;
+  }
+  .main-button {
+    font-size: 22px;
+  }
+  .choice-wrap {
+    padding-left: 56px;
+  }
+  .main-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 375px) {
+  .age-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .selectBox {
+    width: 100%;
+  }
+  span.selected {
+    width: 100%;
+    margin: 4px auto;
+  }
+  span.selectArrow {
+    margin-top: 4px;
+  }
+  .form-block {
+    padding-right: 30px;
+  }
+  .selectBox.mounth span.selected {
+    width: 100%;
+  }
+  .selectBox.year span.selected {
+    width: 100%;
+  }
+  .choice-wrap {
+    padding-left: 34px;
+  }
+}
+
 .main-footer {
   margin-top: 50px;
 }
@@ -1168,10 +1290,8 @@ input:invalid + span:after {
   position: absolute;
   content: "37%";
   font-size: 21px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  top: 35%;
+  left: 53%;
 }
 
 .circle-svg {
@@ -1261,5 +1381,107 @@ input:invalid + span:after {
   display: block;
   margin-top: 32px;
   margin-left: auto;
+}
+
+@media (max-width: 1440px) {
+  .breadcrumbs-item {
+    width: 49px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .breadcrumbs-item {
+    width: 41px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .breadcrumbs-item {
+    width: 31px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider {
+    width: 100%;
+  }
+  .top-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .image-text {
+    width: 100%;
+  }
+  .user-list {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .image-text {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .user-item {
+    position: relative;
+    width: 58px;
+  }
+  .breadcrumbs-item {
+    padding-left: 3px;
+    width: 28px;
+  }
+  .text-wrap-item {
+    width: 100%;
+  }
+  .text-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .user-progress-interface {
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .user-tab-wrap {
+    margin-left: -48px;
+  }
+  .steps-block,
+  .rating-block {
+    width: 100%;
+  }
+  .circle-range {
+    margin-left: 76px;
+  }
+  .stars-block {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .circle-range::before {
+    top: 35%;
+    left: 31%;
+  }
+  .breadcrumbs-item {
+    padding-left: 19px;
+    width: 69px;
+  }
+}
+
+@media (max-width: 425px) {
+  .breadcrumbs-item {
+    width: 59px;
+  }
+  .circle-range {
+    margin-left: 50px;
+  }
+  .circle-range::before {
+    left: 33%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

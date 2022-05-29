@@ -305,3 +305,120 @@ input:invalid + span:after {
   right: -27px;
   top: 9px;
 }
+@media (max-width: 1024px) {
+  .choice-sex {
+    margin-left: 40px;
+  }
+  .search-icon {
+    padding-left: 10px;
+  }
+  .form-input {
+    margin-left: 25px;
+  }
+  span.selected {
+    margin-left: 42px;
+  }
+  .selectBox.mounth span.selected {
+    margin-left: 10px;
+  }
+  .selectBox.year span.selected {
+    width: 100px;
+    margin-left: 4px;
+  }
+  .selectBox.city span.selected {
+    width: 98%;
+    margin-left: 11px;
+  }
+  .main-button {
+    margin: 8px auto 0 auto;
+  }
+  .main-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .start-block {
+    flex-direction: column-reverse;
+  }
+  .form-block {
+    width: 100%;
+  }
+
+  .search-icon {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .search-icon {
+    padding-left: 10px;
+  }
+  .choice-sex {
+    margin-left: 17px;
+    width: 80px;
+  }
+  .form-input {
+    margin-left: 3px;
+  }
+  .selectBox.year span.selected {
+    width: 88px;
+    margin-left: 22px;
+  }
+
+  span.selected {
+    margin-left: 22px;
+  }
+  .main-form {
+    font-size: 16px;
+  }
+  .selectBox.mounth span.selected {
+    width: 104px;
+    margin-left: 2px;
+  }
+  .selectBox.year span.selected {
+    margin-left: 2px;
+  }
+  .selectBox.city span.selected {
+    width: 103%;
+    margin-left: -6px;
+  }
+  .main-button {
+    font-size: 22px;
+  }
+  .choice-wrap {
+    padding-left: 56px;
+  }
+  .main-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 375px) {
+  .age-row {
+    flex-direction: column;
+  }
+  .selectBox {
+    width: 100%;
+  }
+  span.selected {
+    width: 100%;
+    margin: 4px auto;
+  }
+  span.selectArrow {
+    margin-top: 4px;
+  }
+  .form-block {
+    padding-right: 30px;
+  }
+  .selectBox.mounth span.selected {
+    width: 100%;
+  }
+  .selectBox.year span.selected {
+    width: 100%;
+  }
+  .choice-wrap {
+    padding-left: 34px;
+  }
+}
