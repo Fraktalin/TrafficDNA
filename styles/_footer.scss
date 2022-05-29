@@ -1,0 +1,31 @@
+.main-footer {
+  margin-top: 50px;
+}
+.footer-wrap {
+  border-top: 1px solid #ccc;
+  display: flex;
+  padding-top: 22px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-link-image {
+  width: 112px;
+  filter: grayscale(1);
+}
+.footer-text,
+.footer-color-text {
+  font-size: 20px;
+}
+.footer-text {
+  color: #ccc;
+}
+.footer-color-text {
+  color: #666;
+}
+.footer-year {
+  font-size: 31px;
+  display: block;
+  width: 56px;
+  color: #ccc;
+  margin-left: auto;
+}

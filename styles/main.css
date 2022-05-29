@@ -325,7 +325,6 @@ body {
 ol,
 ul {
   padding: 0;
-  list-style-type: none;
 }
 
 button {
@@ -754,6 +753,51 @@ input:invalid + span:after {
   top: 9px;
 }
 
+.main-footer {
+  margin-top: 50px;
+}
+
+.footer-wrap {
+  border-top: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 22px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-link-image {
+  width: 112px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.footer-text,
+.footer-color-text {
+  font-size: 20px;
+}
+
+.footer-text {
+  color: #ccc;
+}
+
+.footer-color-text {
+  color: #666;
+}
+
+.footer-year {
+  font-size: 31px;
+  display: block;
+  width: 56px;
+  color: #ccc;
+  margin-left: auto;
+}
+
 .main-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1139,5 +1183,83 @@ input:invalid + span:after {
 .stars-block {
   margin-top: 10px;
   margin-left: 48px;
+}
+
+.text-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-wrap-item {
+  width: 30%;
+  font-size: 14px;
+}
+
+.color-text {
+  color: #ff9900;
+  border-left: 2px solid #ffcc66;
+  padding-left: 16px;
+  margin-top: 26px;
+}
+
+.second-block {
+  margin-top: 0;
+}
+
+.simple-list {
+  list-style-position: inside;
+}
+
+.divide-text {
+  padding-top: 34px;
+  padding-bottom: 24px;
+}
+
+.simple-list-item {
+  padding-bottom: 16px;
+}
+
+.list-link {
+  color: #ffcc66;
+}
+
+.simple-list-item.spec {
+  list-style-type: none;
+}
+
+.italic-text {
+  font-size: 14px;
+  font-style: italic;
+  color: #999;
+  position: relative;
+}
+
+.italic-text::before {
+  position: absolute;
+  content: "“";
+  font-size: 72px;
+  color: rgba(153, 153, 153, 0.639);
+  left: -32px;
+  top: -24px;
+}
+
+.italic-text::after {
+  position: absolute;
+  content: "”";
+  font-size: 72px;
+  color: rgba(153, 153, 153, 0.639);
+  right: -14px;
+  bottom: -53px;
+}
+
+.click-link {
+  width: 160px;
+  display: block;
+  margin-top: 32px;
+  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */
