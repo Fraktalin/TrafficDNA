@@ -266,3 +266,64 @@
   margin-top: 10px;
   margin-left: 48px;
 }
+.text-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.text-wrap-item {
+  width: 30%;
+  font-size: 14px;
+}
+.color-text {
+  color: $main-color;
+  border-left: 2px solid $link-text-color;
+  padding-left: 16px;
+  margin-top: 26px;
+}
+.second-block {
+  margin-top: 0;
+}
+.simple-list {
+  list-style-position: inside;
+}
+.divide-text {
+  padding-top: 34px;
+  padding-bottom: 24px;
+}
+.simple-list-item {
+  padding-bottom: 16px;
+}
+.list-link {
+  color: $link-text-color;
+}
+.simple-list-item.spec {
+  list-style-type: none;
+}
+.italic-text {
+  font-size: 14px;
+  font-style: italic;
+  color: #999;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "“";
+    font-size: 72px;
+    color: rgba(153, 153, 153, 0.639);
+    left: -32px;
+    top: -24px;
+  }
+  &::after {
+    position: absolute;
+    content: "”";
+    font-size: 72px;
+    color: rgba(153, 153, 153, 0.639);
+    right: -14px;
+    bottom: -53px;
+  }
+}
+.click-link {
+  width: 160px;
+  display: block;
+  margin-top: 32px;
+  margin-left: auto;
+}
