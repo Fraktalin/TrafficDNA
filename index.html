@@ -7,6 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://propeller.in/components/range-slider/css/nouislider.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://propeller.in/components/textfield/css/textfield.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://propeller.in/components/checkbox/css/checkbox.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://propeller.in/components/range-slider/css/range-slider.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap"
       rel="stylesheet"
     />
@@ -21,7 +41,327 @@
       <section class="main-section">
         <div class="container">
           <div class="start-block">
-            <div class="slider"></div>
+            <div class="slider">
+              <img src="./images/slider/slide1.jpg" alt="" />
+              <img src="./images/slider/slide2.jpg" alt="" />
+              <img src="./images/slider/slide3.jpg" alt="" />
+              <img src="./images/slider/slide4.jpg" alt="" />
+            </div>
+            <div class="form-block">
+              <h1 class="main-title">Join us now. It's FREE</h1>
+              <form class="main-form" action="#">
+                <div class="row">
+                  <span class="form-text">I am</span>
+                  <div class="choice-sex">
+                    <div class="choice-sex-item swap-sex active">
+                      <img
+                        class="image-sex"
+                        src="./images/femaleWhite.png"
+                        alt=""
+                        data-swap="./images/femaleOrange.png"
+                      />
+                    </div>
+                    <div class="choice-sex-item swap-sex">
+                      <img
+                        class="image-sex"
+                        src="./images/maleOrange.png"
+                        alt=""
+                        data-swap="./images/maleWhite.png"
+                      />
+                    </div>
+                  </div>
+                  <img class="search-icon" src="./images/search.svg" alt="" />
+                  <span class="form-text">looking for</span>
+                  <div class="choice-sex">
+                    <div class="choice-sex-item swap-sex-partner active">
+                      <img
+                        class="image-sex"
+                        src="./images/femaleWhite.png"
+                        alt=""
+                        data-swap="./images/femaleOrange.png"
+                      />
+                    </div>
+                    <div class="choice-sex-item swap-sex-partner">
+                      <img
+                        class="image-sex"
+                        src="./images/maleOrange.png"
+                        alt=""
+                        data-swap="./images/maleWhite.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <label class="row input-icon" for="name">
+                  <span>Name</span>
+                  <input
+                    id="name"
+                    class="form-input"
+                    type="text"
+                    minlength="2"
+                    required
+                  />
+                  <span></span>
+                </label>
+                <div class="row">
+                  <span>Age</span>
+                  <div class="selectBox">
+                    <span class="selected"></span>
+                    <span class="selectArrow">&#9660;</span>
+                    <div class="selectOptions">
+                      <span class="selectOption" value="Option 1">12</span>
+                      <span class="selectOption" value="Option 2">13</span>
+                      <span class="selectOption" value="Option 3">14</span>
+                      <span class="selectOption" value="Option 3">15</span>
+                      <span class="selectOption" value="Option 3">16</span>
+                    </div>
+                  </div>
+                  <div class="selectBox mounth">
+                    <span class="selected"></span>
+                    <span class="selectArrow">&#9660;</span>
+                    <div class="selectOptions">
+                      <span class="selectOption" value="Option 1">october</span>
+                      <span class="selectOption" value="Option 2"
+                        >november</span
+                      >
+                      <span class="selectOption" value="Option 3"
+                        >september</span
+                      >
+                      <span class="selectOption" value="Option 3">june</span>
+                      <span class="selectOption" value="Option 3">march</span>
+                    </div>
+                  </div>
+                  <div class="selectBox year">
+                    <span class="selected"></span>
+                    <span class="selectArrow">&#9660;</span>
+                    <div class="selectOptions">
+                      <span class="selectOption" value="Option 1">1984</span>
+                      <span class="selectOption" value="Option 2">1985</span>
+                      <span class="selectOption" value="Option 3">1986</span>
+                      <span class="selectOption" value="Option 3">1987</span>
+                      <span class="selectOption" value="Option 3">1988</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <span>Name</span>
+                  <div class="selectBox city">
+                    <span class="selected"></span>
+                    <span class="selectArrow">&#9660;</span>
+                    <div class="selectOptions">
+                      <span class="selectOption" value="Option 1">London</span>
+                      <span class="selectOption" value="Option 2"
+                        >Stockholm</span
+                      >
+                      <span class="selectOption" value="Option 3">Paris</span>
+                      <span class="selectOption" value="Option 3">Warsaw</span>
+                      <span class="selectOption" value="Option 3">Dnipro</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="choice-wrap">
+                    <div class="input-wrap">
+                      <input
+                        type="checkbox"
+                        class="custom-checkbox"
+                        id="cool"
+                        name="cool"
+                        value="yes"
+                      />
+                      <label for="cool">I'm cool</label>
+                    </div>
+                    <div class="input-wrap">
+                      <input
+                        type="checkbox"
+                        class="custom-checkbox"
+                        id="cool"
+                        name="cool"
+                        value="yes"
+                      />
+                      <label for="cool">Life's good</label>
+                    </div>
+                  </div>
+                  <div class="choice-wrap">
+                    <div class="input-wrap">
+                      <input
+                        class="form-radio"
+                        type="radio"
+                        name="radio"
+                        id="radio1"
+                      />
+                      <label for="radio1">I'm cool</label>
+                    </div>
+                    <div class="input-wrap">
+                      <input
+                        class="form-radio"
+                        type="radio"
+                        name="radio"
+                        id="radio2"
+                      />
+                      <label for="radio2">Life's good</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <button class="main-button">Start Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-section">
+        <div class="container">
+          <div class="top-block">
+            <div class="image-text">
+              <h2 class="second-title">Code this block</h2>
+              <img class="shape-image" src="./images/girlInCircle.png" alt="" />
+              <p>
+                This text should be changeable. Lorem ipsum text here. Offers
+                great opportunities to everyone looking to meet locals, find
+                romantic dates and make new friends. Our dating site gives you
+                hours of dating fun, together with seemingly endless
+                possibilities to meet new single people from your area, make
+                friends, go on a date and enjoy good company. With thousands of
+                local personals, will make your life a whole lot busier with all
+                that dating. This is a great place to find true friends or
+                devoted partners for long-term relationships or marriage. We
+                believe that the best way to find a compatible romantic partner
+                is to spend time getting to know local singles. That's why
+                Cupid.com makes it easy to meet other local singles. The basic
+                membership is free, and we let you decide how much information
+                you want to reveal about.
+              </p>
+            </div>
+            <div class="user-list">
+              <h2 class="second-title">Code this block</h2>
+              <div class="user-wrap">
+                <button class="arrow-button">
+                  <img src="./images/prev.svg" alt="prev" />
+                </button>
+                <div class="user-item">
+                  <img class="user-image" src="./images/userItem.jpg" alt="" />
+                  <span class="user-name">SexyGirl</span>
+                  <button class="user-item-button user-wink">
+                    <img class="" src="./images/ico_wink.svg" alt="" />
+                  </button>
+                  <button class="user-item-button user-add">
+                    <img class="" src="./images/ico_add.svg" alt="" />
+                  </button>
+                </div>
+                <div class="user-item">
+                  <img class="user-image" src="./images/userItem.jpg" alt="" />
+                  <span class="user-name">SexyGirl</span>
+                  <button class="user-item-button user-wink">
+                    <img class="" src="./images/ico_wink.svg" alt="" />
+                  </button>
+                  <button class="user-item-button user-add">
+                    <img class="" src="./images/ico_add.svg" alt="" />
+                  </button>
+                </div>
+                <div class="user-item">
+                  <img class="user-image" src="./images/userItem.jpg" alt="" />
+                  <span class="user-name">SexyGirl</span>
+                  <button class="user-item-button user-wink">
+                    <img class="" src="./images/ico_wink.svg" alt="" />
+                  </button>
+                  <button class="user-item-button user-add">
+                    <img class="" src="./images/ico_add.svg" alt="" />
+                  </button>
+                </div>
+                <div class="user-item">
+                  <img class="user-image" src="./images/userItem.jpg" alt="" />
+                  <span class="user-name">SexyGirl</span>
+                  <button class="user-item-button user-wink">
+                    <img class="" src="./images/ico_wink.svg" alt="" />
+                  </button>
+                  <button class="user-item-button user-add">
+                    <img class="" src="./images/ico_add.svg" alt="" />
+                  </button>
+                </div>
+                <div class="user-item">
+                  <img class="user-image" src="./images/userItem.jpg" alt="" />
+                  <span class="user-name">SexyGirl</span>
+                  <button class="user-item-button user-wink">
+                    <img class="" src="./images/ico_wink.svg" alt="" />
+                  </button>
+                  <button class="user-item-button user-add">
+                    <img class="" src="./images/ico_add.svg" alt="" />
+                  </button>
+                </div>
+                <button class="arrow-button">
+                  <img src="./images/next.svg" alt="prev" />
+                </button>
+              </div>
+              <div class="user-progress-block">
+                <div class="user-tab-wrap">
+                  <div class="user-tab">Users List</div>
+                  <div class="user-tab user-tab-active">
+                    <span class="user-tab-text">Active list tab </span
+                    ><span class="user-tab-nubers">| 38</span>
+                  </div>
+                </div>
+              </div>
+              <div class="user-progress-interface">
+                <div class="steps-block">
+                  <div class="progress-gorizontal">
+                    <div class="Progress">
+                      <div class="Bar" data-value="20">
+                        <div class="pct">20%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <nav class="breadcrumbs">
+                    <a href="#" class="breadcrumbs-item done">Step 1</a>
+                    <a href="#" class="breadcrumbs-item done">Step 1</a>
+                    <a href="#" class="breadcrumbs-item active">Step 1</a>
+                    <a href="#" class="breadcrumbs-item">Step 1</a>
+                    <a href="#" class="breadcrumbs-item">Step 1</a>
+                  </nav>
+                  <div class="range-block">
+                    <div
+                      id="pmd-slider-value-range"
+                      class="pmd-range-slider"
+                      min="0"
+                      max="200"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="rating-block">
+                  <div class="circle-range">
+                    <svg class="circle-svg">
+                      <circle
+                        cy="100"
+                        cx="100"
+                        r="45"
+                        fill="transparent"
+                        stroke="#ccc"
+                        stroke-width="20"
+                      ></circle>
+                      <circle
+                        class="st0"
+                        cy="100"
+                        cx="-100"
+                        r="45"
+                        fill="transparent"
+                        stroke="#ff9900"
+                        stroke-width="20"
+                        stroke-dasharray="37%,1000"
+                        stroke-dashoffset="0"
+                      ></circle>
+                    </svg>
+                  </div>
+                  <div class="stars-block">
+                    <img src="./images/star.png" alt="" />
+                    <img src="./images/star.png" alt="" />
+                    <img src="./images/whiteStar.png" alt="" />
+                    <img src="./images/whiteStar.png" alt="" />
+                    <img src="./images/whiteStar.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -31,6 +371,9 @@
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
       crossorigin="anonymous"
     ></script>
-    <script src="./main.js"></script>
+    <script defer src="./script/slick.min.js"></script>
+    <script src="http://propeller.in/components/range-slider/js/wNumb.js"></script>
+    <script src="http://propeller.in/components/range-slider/js/nouislider.js"></script>
+    <script src="./script/main.js"></script>
   </body>
 </html>

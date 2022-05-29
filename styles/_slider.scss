@@ -1,0 +1,28 @@
+.slick-dots {
+  bottom: 20px;
+}
+.slider {
+  width: 50%;
+}
+.slick-list {
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.384);
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}
+.slick-dots li {
+  height: 11px;
+  width: 11px;
+  border: 1px solid #666633;
+  background: #666633;
+  border-radius: 50%;
+}
+.slick-dots .slick-active {
+  border: 1px solid #666633;
+  background: $main-color;
+  border-radius: 50%;
+}
+.slick-dots li button:before {
+  content: "";
+}

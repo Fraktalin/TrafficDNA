@@ -1,3 +1,14 @@
+.main-section {
+  background: $main-color;
+  padding-bottom: 18px;
+  padding-top: 20px;
+}
 .start-block {
   display: flex;
+}
+.form-block {
+  width: 50%;
+  background-color: white;
+  padding-left: 22px;
+  padding-right: 50px;
 }
