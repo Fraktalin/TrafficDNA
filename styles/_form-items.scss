@@ -273,8 +273,7 @@ span.selectOption:hover {
   padding: 20px 70px;
   font-size: 48px;
   margin: 60px auto 0 auto;
-}
-.main-button {
+  transition: 0.5s;
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -285,6 +284,9 @@ span.selectOption:hover {
   color: #fff;
   outline: none;
   background: linear-gradient(#afe641, #99cc33 48%, #669900 52%, #669900);
+  &:hover {
+    color: #ccc;
+  }
 }
 .main-button:active {
   box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
@@ -304,6 +306,13 @@ input:invalid + span:after {
   position: absolute;
   right: -27px;
   top: 9px;
+}
+
+@media (max-width: 1366px) {
+  .selectBox.city span.selected {
+    width: 90%;
+    margin-left: 52px;
+  }
 }
 @media (max-width: 1024px) {
   .choice-sex {
