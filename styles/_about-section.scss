@@ -252,9 +252,8 @@
     position: absolute;
     content: "37%";
     font-size: 21px;
-    top: 50%;
-    left: 50%;
-    transform: translate(0, -50%);
+    top: 35%;
+    left: 53%;
   }
 }
 .circle-svg {
@@ -326,4 +325,95 @@
   display: block;
   margin-top: 32px;
   margin-left: auto;
+}
+
+@media (max-width: 1440px) {
+  .breadcrumbs-item {
+    width: 49px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .breadcrumbs-item {
+    width: 41px;
+  }
+}
+@media (max-width: 1024px) {
+  .breadcrumbs-item {
+    width: 31px;
+  }
+}
+@media (max-width: 768px) {
+  .slider {
+    width: 100%;
+  }
+  .top-block {
+    flex-direction: column;
+  }
+  .image-text {
+    width: 100%;
+  }
+  .user-list {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .image-text {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .user-item {
+    position: relative;
+    width: 58px;
+  }
+  .breadcrumbs-item {
+    padding-left: 3px;
+    width: 28px;
+  }
+  .text-wrap-item {
+    width: 100%;
+  }
+  .text-wrap {
+    flex-direction: column;
+  }
+  .user-progress-interface {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .user-tab-wrap {
+    margin-left: -48px;
+  }
+  .steps-block,
+  .rating-block {
+    width: 100%;
+  }
+  .circle-range {
+    margin-left: 76px;
+  }
+  .stars-block {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .circle-range::before {
+    top: 35%;
+    left: 31%;
+  }
+  .breadcrumbs-item {
+    padding-left: 19px;
+    width: 69px;
+  }
+}
+
+@media (max-width: 425px) {
+  .breadcrumbs-item {
+    width: 59px;
+  }
+  .circle-range {
+    margin-left: 50px;
+  }
+  .circle-range::before {
+    left: 33%;
+  }
 }
